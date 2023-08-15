@@ -13,14 +13,14 @@ colorCuadros = (241, 155, 163)
 colorFondo = (251, 213, 221)
 
 # Nacimiento de Hello Kitty
-HelloKitty = pygame.image.load("Laberinto/HelloKitty.png")
+HelloKitty = pygame.image.load("HelloKitty.png")
 HelloKitty = pygame.transform.scale(HelloKitty, (70, 70))
 HelloKittyRect = HelloKitty.get_rect()
 HelloKittyRect.center = (300, 30)
 move_speed = 2
 
 # Fresa
-Fresa = pygame.image.load("Laberinto/fresa.png")
+Fresa = pygame.image.load("fresa.png")
 Fresa = pygame.transform.scale(Fresa, (60, 60))
 FresaRect = Fresa.get_rect()
 FresaRect.center = (290, 560)
